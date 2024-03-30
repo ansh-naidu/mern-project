@@ -59,7 +59,6 @@ Post
 
 API Endpoints
 
-POST /api/signup
 GET /api/login
 
 GET /api/users
@@ -109,3 +108,7 @@ src/index.css
 ```
 
 `npm install -D react-router-dom`
+
+[React Tailwindcss NavBar Example](https://github.com/rrs301/react-tailwind-nav-bar)
+[Spinner styling](https://www.material-tailwind.com/docs/html/spinner)
+[Styling examples](https://v1.tailwindcss.com/components/buttons)
