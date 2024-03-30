@@ -11,6 +11,7 @@ The simple blog website should have two sections
 * The side panel on right should show the links to list of last 5 blog posts
 
 
+```
 Home
   Header
     SiteName (title)
@@ -74,16 +75,19 @@ GET /api/posts/{postId}
 POST /api/posts
 PUT /api/posts/{postId}
 DELETE /api/posts/{postId}
+```
 
-
-Steps
+## Steps
 
 Create frontend and backend folders
 in frontend folder
-`npm install -g create-vite`
-`npm create vite simple-blog -- --template react-swc`
-`npm install -D tailwindcss postcss autoprefixer`
-`npx tailwindcss init -p`
+
+```bash
+npm install -g create-vite
+npm create vite simple-blog -- --template react-swc
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
 
 tailwind.config.js
 ```js
@@ -107,7 +111,9 @@ src/index.css
 @tailwind utilities;
 ```
 
-`npm install -D react-router-dom`
+```bash
+npm install -D react-router-dom
+```
 
 [React Tailwindcss NavBar Example](https://github.com/rrs301/react-tailwind-nav-bar)
 [Spinner styling](https://www.material-tailwind.com/docs/html/spinner)
