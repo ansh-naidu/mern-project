@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 const SideBarNav = () => {
     const auth = useContext(AuthContext);
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(true);
     const [hover, setHover] = useState(false);
     const navigate = useNavigate();
     const logoutHandler = event => {

@@ -37,11 +37,16 @@ const Login = () => {
                     password: formState.inputs.password.value,
                 }),
             });
-            const responseData = await response.json();
-            console.log(responseData);
-            auth.login();
-            setIsLoading(false);
-            navigate('/');
+            console.log(response);
+            if (response.status === 200) {
+                const responseData = await response.json();
+                console.log(responseData);
+                auth.login();
+                setIsLoading(false);
+                navigate('/');
+            } else {
+                setIsLoading(false);
+            }
         } catch (error) {
             setError(error.message || 'Some error occured');
             setIsLoading(false);
