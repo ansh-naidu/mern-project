@@ -118,3 +118,16 @@ npm install -D react-router-dom
 [React Tailwindcss NavBar Example](https://github.com/rrs301/react-tailwind-nav-bar)
 [Spinner styling](https://www.material-tailwind.com/docs/html/spinner)
 [Styling examples](https://v1.tailwindcss.com/components/buttons)
+
+## Session on 2024-04-06
+
+React Hooks
+
+* useState
+* useReducer
+* useContext
+* useCallback
+* useEffect
+
+HTML DOM Domain Object Model - manipulation
+Virtual DOM
