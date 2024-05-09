@@ -26,6 +26,5 @@ Simple Blog project
 ```bash
 npm start
 ```
-
-Runs the app in the development mode.<br /> 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Note: Tried multiple online projects did 30,000 additions and deletions could not get anything to work as some node module errors were imminent this is the final project where i took help from a classmate.
+you can visit insights to know more Thank you Sir
