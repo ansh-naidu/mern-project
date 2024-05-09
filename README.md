@@ -15,13 +15,14 @@ Simple Blog project
   MONGO_URI = 'Your mongo url'
   SECRET = 'secret for Passport'
   ```
-  #### Start the server (run server.js file)
-  ```bash
-  node server.js
-  ```
   ### `Go to /blogApp-frontend/ folder`
   In the project directory, you can run:
-
+  #### Install all dev and production dependencies
+  ```bash
+  npm install
+  ```
+### TO Start the project 
+### Go To both Frontend and Backend and 
 ```bash
 npm start
 ```
