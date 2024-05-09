@@ -2,6 +2,10 @@ Simple Blog project
 1- Imported Tushar Sir's project
 2- making changes to it
 
+Note: Tried multiple online projects did 30,000 additions and deletions could not get anything to work as some node module errors were imminent this is the final project where i took help from a classmate.
+you can visit insights to know more Thank you Sir
+
+
 ## Installation:
   #### Install mongoDB and NodeJS
   ### `Go to /blogApp-backend/ folder`
@@ -26,5 +30,3 @@ Simple Blog project
 ```bash
 npm start
 ```
-Note: Tried multiple online projects did 30,000 additions and deletions could not get anything to work as some node module errors were imminent this is the final project where i took help from a classmate.
-you can visit insights to know more Thank you Sir
